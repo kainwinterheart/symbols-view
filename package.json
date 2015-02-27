@@ -23,7 +23,7 @@
     "q": "^1.1.2",
     "temp": "~0.8.1"
   },
-  "repository": "https://github.com/atom/symbols-view",
+  "repository": "https://github.com/kainwinterheart/symbols-view",
   "engines": {
     "atom": "*"
   }
