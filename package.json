@@ -1,6 +1,6 @@
 {
   "name": "symbols-view",
-  "version": "0.85.1",
+  "version": "0.88.1",
   "main": "./lib/main",
   "description": "Jump to a function/method in the current editor with `cmd-r`.",
   "license": "MIT",
@@ -15,6 +15,7 @@
     ]
   },
   "dependencies": {
+    "async": "^0.2.6",
     "atom-space-pen-views": "^2.0.0",
     "ctags": "^2.0.0",
     "fs-plus": "^2.0.0",
