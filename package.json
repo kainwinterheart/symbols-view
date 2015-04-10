@@ -1,6 +1,6 @@
 {
   "name": "symbols-view",
-  "version": "0.93.1",
+  "version": "0.94.1",
   "main": "./lib/main",
   "description": "Jump to a function/method in the current editor with `cmd-r`.",
   "license": "MIT",
@@ -27,5 +27,8 @@
   "repository": "https://github.com/kainwinterheart/symbols-view",
   "engines": {
     "atom": "*"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.3"
   }
 }
