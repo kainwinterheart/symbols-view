@@ -33,6 +33,7 @@ class TagGenerator
       when 'source.css'      then 'Css'
       when 'source.css.less' then 'Css'
       when 'source.css.scss' then 'Css'
+      when 'source.elixir'   then 'Elixir'
       when 'source.gfm'      then 'Markdown'
       when 'source.go'       then 'Go'
       when 'source.java'     then 'Java'
