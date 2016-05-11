@@ -1,6 +1,6 @@
 {
   "name": "symbols-view",
-  "version": "0.112.0",
+  "version": "0.113.0",
   "main": "./lib/main",
   "description": "Jump to a function/method in the current editor with `cmd-r`.",
   "license": "MIT",
@@ -21,13 +21,19 @@
     "fs-plus": "^2.0.0",
     "fuzzaldrin": "^2.1.0",
     "humanize-plus": "1.4.2",
-    "temp": "~0.8.1"
+    "temp": "~0.8.1",
+    "underscore-plus": "~1.6.6"
   },
   "configSchema": {
     "useEditorGrammarAsCtagsLanguage": {
       "default": true,
       "type": "boolean",
       "description": "Force ctags to use the name of the current file's language in Atom when generating tags. By default, ctags automatically selects the language of a source file, ignoring those files whose language cannot be determined. This option forces the specified language to be used instead of automatically selecting the language based upon its extension."
+    },
+    "quickJumpToFileSymbol": {
+      "default": true,
+      "type": "boolean",
+      "description": "Automatically visit selected file-symbols"
     }
   },
   "repository": "https://github.com/kainwinterheart/symbols-view",
